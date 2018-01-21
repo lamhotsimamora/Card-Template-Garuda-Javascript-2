@@ -28,7 +28,7 @@ class cardHtml
  * Count of data will automatically set up
  * @type {integer}
  */
-const $count_data = 10;
+let $count_data = 10;
 
 for (let i = 0; i < $count_data; i++) 
 { 
