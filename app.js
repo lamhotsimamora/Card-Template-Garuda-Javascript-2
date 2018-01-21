@@ -50,12 +50,10 @@ $getUser.request($data=>{
 			});
 			j++;
 		}
-		ready = true;
 		$layout.removeAttr('style');
 		$loading.hide();
 	}
 });
-
 
 function viewProfile(id)
 {
